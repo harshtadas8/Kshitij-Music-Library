@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background-color: rgb(206, 204, 218); */
+    /* background-color: rgb(181, 213, 229); */
+    background-color: rgb(31, 16, 11);
+    color: white;
+}
+hr{
+    border-color: rgb(26, 26, 67);
+}
+.home{
+    color: white;
+}
+#us{
+    text-align: center;
+}
+.logo{
+    margin-left: 1rem;
+}
+
+
+nav{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(201, 201, 144);
+    background-color: #01172F;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    
+    
+}
+
+#title{
+    color: rgb(86, 245, 71);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a{
+    transition-duration: 2000;
+     /* transition-behavior: smooth; */
+    scroll-behavior: smooth;
+}
+
+#follow{
+    background-color: rgb(182, 169, 169);
+}
+.signin{
+    margin-right: 5rem;
+}
+
+#titimg{
+    height: 40vh;
+}
+
+.logo img{
+    height: 60px;
+}
+
+#intro{
+    display: flex;
+    gap: 10vw;
+    margin: 2rem;
+}
+
+#subint{
+    font-size: large;
+    
+}
+#intcont h1{
+    font-size: xxx-large;
+    margin: 1rem;
+}
+#intcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#intro img{
+    width: 40vw;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.playcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#playtit{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+#playp{
+    margin: 1rem 2rem ;
+    font-size: large;
+}
+
+.pplaylist{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.playcard{
+    width: 18vw;
+    height: auto;
+    /* background-color: aqua; */
+    /* border: 2px solid black; */
+}
+.playcard:hover{
+    width: 19vw;
+    .km{
+        visibility: visible;
+    }
+
+}
+.km{
+    visibility: hidden;
+}
+#follow{
+    width: 6vw;
+    font-size: medium;
+}
+#follow:hover{
+    border: 4px solid green;
+    
+}
+#albh1{
+    text-align: center;
+    margin: 1.5rem;
+}
+
+#albp{
+    margin: 1.5rem 2rem;
+    font-size: large;
+}
+.alblist{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.albcard{
+    width: 18vw;
+    height: 330px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.searchbar{
+    height: 3VW;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 1rem 2rem 1rem;   
+    gap: 0.4rem;
+}
+
+.searchbar input{
+    text-align: center;
+    font-size: large;
+}
+
+
+
+#us{
+    margin: 1.5rem;
+}
+
+.reviews{
+    display: flex;
+    /* margin-left: 2rem; */
+    gap: 1vw;
+    justify-content: space-around;
+    
+    
+}
+
+.revcard{
+    width: 15vw;
+    height: 300px;
+    /* background-color: aqua;
+    border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.revcard img{
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+}
+#part1{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form input{
+    font-size: large;
+    height: 30px;
+} 
+
+#rev, #sugg{
+    height: 50px;
+}
+
+.extra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+    height: 1rem;
+    padding: 1rem;
+    /* background-color: rgb(27, 19, 35); */
+    background-color: #446DF6;
+    
+
+}
+
+#submit{
+    font-size: medium;
+    margin-left: 8vw;
+    padding: 0.6rem;
+    border-style: none;
+    border-radius: 25%;
+}
+.btp{
+    font-size: large;
+    height: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #00635D;
+    margin-top: 2rem;
+}
+#btpbut{
+    background-color: #446DF6;
+    padding: 0.5rem;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    padding: 1rem;
+    background-color: #00635D;
+    
+}
+
+li{
+    list-style: none;
+}
+.social{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: large;
+    height: 1rem;
+    padding: 1rem;
+    background-color: rgb(104, 77, 132);
+}
+
+.social img{
+    height: 30px;
+}
+
+i:hover{
+    border: 3px solid yellow;
+}
+
